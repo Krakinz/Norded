@@ -1,4 +1,4 @@
-tgcalls >= 1.0.0
+tgcalls 3.0.0.dev5
 pytgcalls >= 1.0.0
 requests
 youtube_search
