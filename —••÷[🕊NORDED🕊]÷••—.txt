@@ -1,5 +1,5 @@
-tgcalls 
-pytgcalls
+tgcalls == 1.0.0
+pytgcalls = 1.0.0
 requests
 youtube_search
 youtube_dl
