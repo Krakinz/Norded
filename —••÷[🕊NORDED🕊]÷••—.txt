@@ -1,4 +1,4 @@
-tgcalls 3.0.0.dev5
+tgcalls 
 pytgcalls
 requests
 youtube_search
