@@ -1,4 +1,4 @@
-pytgcalls
+pytgcalls==3.0.0.dev21
 requests
 youtube_search
 youtube_dl
