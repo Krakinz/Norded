@@ -1,4 +1,3 @@
-tgcalls ==2.0.0
 pytgcalls
 requests
 youtube_search
