@@ -1,5 +1,5 @@
-pytgcalls
-tgcalls
+tgcalls ==0.0.4
+pytgcalls ==0.0.7
 requests
 youtube_search
 youtube_dl
