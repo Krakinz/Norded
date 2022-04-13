@@ -1,5 +1,4 @@
 tgcalls 
-pytgcalls
 requests
 youtube_search
 youtube_dl
