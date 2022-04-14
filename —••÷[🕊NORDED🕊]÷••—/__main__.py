@@ -235,7 +235,7 @@ from pyrogram.utils import MAX_CHANNEL_ID
 from pyrogram import Client, filters,idle
 from asyncio.exceptions import TimeoutError
 from pyrogram.raw.base import InputGroupCall
-from pytgcalls import GroupCall as NORDCALLER
+## from pytgcalls import GroupCall as NORDCALLER
 utcnow = datetime.utcnow().replace(microsecond=0)
 from pyrogram.types import Message as ΣOЯ_𝙽𝙾𝚁𝙴𝙳_ΣOЯ
 from pyrogram.errors.exceptions.flood_420 import FloodWait
@@ -282,13 +282,13 @@ MIB keyboard shortcuts
 MIB = HypeKeyboardMarkup([[
 HypeKeyboardButton(
 text="🏷Group",
-url="https://t.me/Krakns"),
+url="https://t.me/hypevoidsoul"),
 HypeKeyboardButton(
 text="💰Channel",
 url="https://t.me/KrakinzLab"),
 HypeKeyboardButton(
 text="⚜️Dev+Git",
-url="https://t.me/KrakinzBot")],
+url="https://t.me/TheRubbyBot")],
 [HypeKeyboardButton(
 text="🧸Master Bot",
 url="https://t.me/XERONOIDBOT")]])
@@ -712,7 +712,7 @@ api_hash=API_HASH,
 session_name="𝙽𝙾𝚁𝙳𝙴𝙳_𝙱𝙾𝚃"
 )
 heroku_api = "https://api.heroku.com"
-group_calls = NORDCALLER
+group_calls = pytgcalls.GroupCallFactory(client).get_group_call()
 
 '''
 .................................................................
@@ -752,7 +752,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 𝙽𝙾𝚁𝙴𝙳_HUD="https://telegra.ph/file/0592f028e92ff2a8e73f0.jpg"
 𝙽𝙾𝚁𝙴𝙳_ERROR = "https://telegra.ph/file/3b0adb8bdcf025bd61ccd.mp4"
 nordanimer="https://telegra.ph/file/745b406e98758fe8c9089.gif"
-ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ = "🕊**𝙽𝙾𝚁𝙳𝙴𝙳-𝚂𝚖𝚊𝚛𝚝 𝙼𝚞𝚜𝚒𝚌 𝙿𝚕𝚊𝚢𝚎𝚛**🕊\n[🦋•=•=•=•=•=•=•=•=•=•=•=•=•=•🦋](https://t.me/KrakinzBot)\n"
+ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ = "🕊**𝙽𝙾𝚁𝙳𝙴𝙳-𝚂𝚖𝚊𝚛𝚝 𝙼𝚞𝚜𝚒𝚌 𝙿𝚕𝚊𝚢𝚎𝚛**🕊\n[🦋•=•=•=•=•=•=•=•=•=•=•=•=•=•🦋](https://t.me/ai40bot)\n"
 LINK = "(https://en.wikipedia.org/wiki/GNU_General_Public_License#:~:text=The%20GNU%20General%20Public%20License,share%2C%20and%20modify%20the%20software.&text=Prominent%20free%20software%20programs%20licensed,GNU%20Compiler%20Collection%20(GCC)"
 DURATION_PLAY_HOUR = 3
 HRKU = heroku3.from_key(HEROKU_API_KEY)
@@ -897,8 +897,8 @@ HEROKU_CATEG=f"""{ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ}[𝗛𝗲𝗿𝗼𝗸�
 INFO_CATEG = f"""{ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ}**__Please press below buttons to check the available commands.__**
 
 ⛵️Ðêv Mêñ†ïðñ§:
-    @HypeVoidoul
-    @KrakinzBot
+    @HypeVoisoul
+    @qtell @five34
 """
 NORN = f"""{ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ}**__Audio is here.__**\n**Please reply to the audio file with** /stream"""
 
@@ -998,7 +998,7 @@ PHONE_NUMBER_TEXT = """
 `Please Send your Telegram Phone number with valid country code.`
  
 `Example:`
-**+919000000000**
+**+254000000000**
 
 ᴘʀᴇꜱꜱ /exit ᴛᴏ ᴄᴀɴᴄᴇʟ ᴘʀᴏɢʀᴇꜱꜱ.
 """
@@ -1235,7 +1235,7 @@ client,
             HypeKeyboardMarkup([[
             HypeKeyboardButton(
             text="🕊DΣV GЯӨЦP",
-            url=f"https://t.me/Krakns",),],[
+            url=f"https://t.me/hyoevoidsoul",),],[
             HypeKeyboardButton(
             text="✨••Hype Void Lab••✨",
             url=f"https://t.me/KrakinzBot")
@@ -1571,10 +1571,10 @@ client,
             HypeKeyboardMarkup([[
             HypeKeyboardButton(
             text="🕊DΣV GЯӨЦP",
-            url=f"https://t.me/Krakns",),],[
+            url=f"https://t.me/KrakinzC",),],[
             HypeKeyboardButton(
             text="✨••Hype Void Lab••✨",
-            url=f"https://t.me/KrakinzBot")
+            url=f"https://t.me/Hypevoisoul")
             ]]))
         except Exception as Σ_𝙽𝙾𝚁𝙴𝙳_Σ:
             𝙽𝙾𝚁𝙴𝙳_ZYGOTE = await ΣOЯ.reply_animation(
