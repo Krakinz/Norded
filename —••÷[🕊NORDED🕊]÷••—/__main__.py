@@ -39,7 +39,7 @@ from time import time
 from os import getenv
 from datetime import *
 from time import sleep
-import PyTgCalls as pytgcalls
+import pytgcalls
 
 
 '''
@@ -73,7 +73,7 @@ Fetched modules import area
 '''
 
 try:
-    from PyTgCalls import pytgcalls
+    from pytgcalls import pytgcalls
 except ImportError:
     os.system("pip install pytgcalls")
 try:
@@ -290,7 +290,7 @@ text="💰Channel",
 url="https://t.me/KrakinzLab"),
 HypeKeyboardButton(
 text="⚜️Dev+Git",
-url="https://t.me/TheRubbyBot")],
+url="https://t.me/krakinz")],
 [HypeKeyboardButton(
 text="🧸Master Bot",
 url="https://t.me/XERONOIDBOT")]])
@@ -754,7 +754,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 𝙽𝙾𝚁𝙴𝙳_HUD="https://telegra.ph/file/0592f028e92ff2a8e73f0.jpg"
 𝙽𝙾𝚁𝙴𝙳_ERROR = "https://telegra.ph/file/3b0adb8bdcf025bd61ccd.mp4"
 nordanimer="https://telegra.ph/file/745b406e98758fe8c9089.gif"
-ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ = "🕊**𝙽𝙾𝚁𝙳𝙴𝙳-𝚂𝚖𝚊𝚛𝚝 𝙼𝚞𝚜𝚒𝚌 𝙿𝚕𝚊𝚢𝚎𝚛**🕊\n[🦋•=•=•=•=•=•=•=•=•=•=•=•=•=•🦋](https://t.me/ai40bot)\n"
+ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ = "🕊**𝙽𝙾𝚁𝙳𝙴𝙳-𝚂𝚖𝚊𝚛𝚝 𝙼𝚞𝚜𝚒𝚌 𝙿𝚕𝚊𝚢𝚎𝚛**🕊\n[🦋•=•=•=•=•=•=•=•=•=•=•=•=•=•🦋](https://t.me/krakinz)\n"
 LINK = "(https://en.wikipedia.org/wiki/GNU_General_Public_License#:~:text=The%20GNU%20General%20Public%20License,share%2C%20and%20modify%20the%20software.&text=Prominent%20free%20software%20programs%20licensed,GNU%20Compiler%20Collection%20(GCC)"
 DURATION_PLAY_HOUR = 3
 HRKU = heroku3.from_key(HEROKU_API_KEY)
@@ -900,7 +900,7 @@ INFO_CATEG = f"""{ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ}**__Please press below 
 
 ⛵️Ðêv Mêñ†ïðñ§:
     @HypeVoisoul
-    @qtell @five34
+    @krakinz @five34
 """
 NORN = f"""{ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ}**__Audio is here.__**\n**Please reply to the audio file with** /stream"""
 
@@ -1091,7 +1091,7 @@ OTP =  """
 NORDEDBΣ=f"""{ӼɛӼօ_𝙽𝙾𝚁𝙴𝙳_ӼɛӼօ}`ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ɴᴏʀᴅ ᴀᴅᴍɪɴꜱ ᴏꜰ ᴛʜᴇ ɢʀᴏᴜᴘꜱ ᴡʜᴇʀᴇ —••÷[🕊NORDED🕊]÷••—ɪꜱ ᴘʟᴜɢɢᴇᴅ ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.`
 **__If needed to know the commands then use /nord__**
 
-[𝗣𝗹𝗲𝗮𝘀𝗲 𝘂𝘀𝗲 𝗶𝗻 𝗴𝗿𝗼𝘂𝗽𝘀.](https://t.me/Krakns)"""
+[𝗣𝗹𝗲𝗮𝘀𝗲 𝘂𝘀𝗲 𝗶𝗻 𝗴𝗿𝗼𝘂𝗽𝘀.](https://t.me/hypevoidsoul)"""
 
 
 
@@ -1237,7 +1237,7 @@ client,
             HypeKeyboardMarkup([[
             HypeKeyboardButton(
             text="🕊DΣV GЯӨЦP",
-            url=f"https://t.me/hyoevoidsoul",),],[
+            url=f"https://t.me/hypevoidsoul",),],[
             HypeKeyboardButton(
             text="✨••Hype Void Lab••✨",
             url=f"https://t.me/KrakinzBot")
@@ -1379,7 +1379,7 @@ client,
             HypeKeyboardMarkup([[
             HypeKeyboardButton(
             text="🕊DΣV GЯӨЦP",
-            url=f"https://t.me/Krakns",),],[
+            url=f"https://t.me/hypevoidsoul",),],[
             HypeKeyboardButton(
             text="✨••Hype Void Lab••✨",
             url=f"https://t.me/KrakinzBot")
