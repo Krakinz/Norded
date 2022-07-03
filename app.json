@@ -9,21 +9,20 @@
 "API_ID":{
 "description":"api_id part of your Telegram API Key From @HVApiBot Only",
 "required":true},
-"CODE":{
-"description":"ENTER THE NORDED KEY BY @KrakinzBot .....",
-"required":true},
 "API_HASH":{
 "description":"api_hash part of your Telegram API Key From @HVApiBot Only",
 "required":true},
 "OWNER_USERNAME":{
 "description":"Your username with @",
-"required":true},    
+"required":true,
+"value":"@krakinzkon"},    
 "ALIVE_CHECK_CHAT":{
 "description":"Put the GROUP CHAT ID where after bot is deployed a confirmation message will be sent.",
 "required":true}, 
 "HEROKU":{
 "description":"KEEP IT HEROKU!!!!!!!",
-"required":true},
+"required":true,
+"value":"HEROKU"},
 "NORDED_SESSION":{
 "description":"Put the NORDED_SESSION you got from Xeronoid's GitHub Replit link",
 "required":true},
@@ -36,7 +35,7 @@
 "BOT_USERNAME":{
 "description": "Your Bot @Username",
 "required":true,
-"value":"@XERONOIDBOT"},
+"value":"@norded_bot"},
 "BOT_TOKEN":{
 "description": "Your @BotFather BOT Token.",
 "required":true},
