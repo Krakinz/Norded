@@ -39,6 +39,7 @@ from time import time
 from os import getenv
 from datetime import *
 from time import sleep
+import PyTgCalls as pytgcalls
 
 
 '''
@@ -72,7 +73,7 @@ Fetched modules import area
 '''
 
 try:
-    from pytgcalls import pytgcalls
+    from PyTgCalls import pytgcalls
 except ImportError:
     os.system("pip install pytgcalls")
 try:
@@ -189,6 +190,7 @@ importlib.reload(youtube_search)
 importlib.reload(signal)
 importlib.reload(youtube_dl)
 importlib.reload(pyromod)
+importlib.reload(pytgcalls)
 '''
 .................................................................
 Import and reload area
